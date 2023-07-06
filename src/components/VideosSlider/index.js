@@ -7,7 +7,7 @@ import './index.css'
 
 const VideosSlider = props => {
   const settings = {
-    dots: false,
+    infinite: false,
     slidesToScroll: 1,
     slidesToShow: 4,
     responsive: [
